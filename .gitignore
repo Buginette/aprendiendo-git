@@ -1,0 +1,12 @@
+# Secretos
+.env
+
+# Registros
+*.log
+
+# Temporales
+temp/
+
+# Sistema
+.DS_Store
+Thumbs.db

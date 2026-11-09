@@ -1,0 +1,1 @@
+Cambio realizado en main para practicar Git Rebase.

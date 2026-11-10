@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f5f6f2;
+    background: #f8f3f5;
     color: #1b2433;
 }
 
 header {
-    background: #101826;
+    background: #1f2747;
     color: #f2f0ea;
     padding: 40px 24px;
     text-align: center;
@@ -30,13 +30,15 @@ main {
 
 section {
     background: #ffffff;
+    border-left: 5px solid #e4b7a0;
     border-radius: 12px;
     padding: 20px 28px;
     margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(31, 39, 71, 0.08);
 }
 
 h2 {
-    color: #6d28d9;
+    color: #243c8f;
     margin-top: 0;
 }
 

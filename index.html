@@ -46,36 +46,82 @@
             <p>Una rama es un puntero a un commit: trabajo en paralelo sin tocar main.</p>
             <code>git switch -c feature/nueva-idea</code>
         </section>
+
+        <section id="fusiones">
+            <h2>3.2 Fusiones e integración en Git</h2>
+
+            <p>
+                Durante esta práctica aprendí cuatro técnicas
+                para integrar cambios entre diferentes ramas.
+            </p>
+
+            <h3>Fusión de tres vías</h3>
+            <p>
+                Permite combinar ramas divergentes y conservar
+                sus respectivos historiales mediante un commit
+                de fusión.
+            </p>
+            <code>git merge --no-ff feature/fusion-3-vias</code>
+
+            <h3>Fusión No Fast-Forward</h3>
+            <p>
+                Genera un commit de fusión y permite visualizar
+                la integración de una rama en el historial.
+            </p>
+            <code>git merge --no-ff feature/fusion-no-ff</code>
+
+            <h3>Fusión Squash</h3>
+            <p>
+                Permite reunir varios cambios de una rama
+                en un único commit de la rama principal.
+            </p>
+            <code>git merge --squash feature/fusion-squash</code>
+
+            <h3>Integración mediante Rebase</h3>
+            <p>
+                Reorganiza los commits de una rama sobre otra,
+                creando un historial más lineal.
+            </p>
+            <code>git rebase main</code>
+
+            <h3>Resultado de la práctica</h3>
+            <p>
+                Aprendí a utilizar diferentes estrategias
+                de integración y a revisar el historial
+                mediante git log.
+            </p>
+        </section>
+
         <section id="conflictos">
-    <h2>3.3 Resolución de conflictos en Git</h2>
+            <h2>3.3 Resolución de conflictos en Git</h2>
 
-    <p>
-        Durante esta práctica aprendí a identificar y
-        resolver conflictos al trabajar con diferentes
-        ramas de Git.
-    </p>
+            <p>
+                Durante esta práctica aprendí a identificar y
+                resolver conflictos al trabajar con diferentes
+                ramas de Git.
+            </p>
 
-    <h3>Conflictos con Merge</h3>
-    <p>
-        Modifiqué el subtítulo de mi página desde dos
-        ramas diferentes. Utilicé Git Merge para detectar
-        el conflicto y Visual Studio Code para resolverlo.
-    </p>
+            <h3>Conflictos con Merge</h3>
+            <p>
+                Modifiqué el subtítulo de mi página desde dos
+                ramas diferentes. Utilicé Git Merge para detectar
+                el conflicto y Visual Studio Code para resolverlo.
+            </p>
 
-    <h3>Conflictos con Rebase</h3>
-    <p>
-        Realicé cambios diferentes en los colores de los
-        títulos de mi página y utilicé Git Rebase para
-        reorganizar el historial y resolver el conflicto.
-    </p>
+            <h3>Conflictos con Rebase</h3>
+            <p>
+                Realicé cambios diferentes en los colores de los
+                títulos de mi página y utilicé Git Rebase para
+                reorganizar el historial y resolver el conflicto.
+            </p>
 
-    <h3>Aprendizaje obtenido</h3>
-    <p>
-        Comprendí la importancia del control de versiones,
-        la colaboración y la resolución de conflictos
-        durante el desarrollo de proyectos.
-    </p>
-</section>
+            <h3>Aprendizaje obtenido</h3>
+            <p>
+                Comprendí la importancia del control de versiones,
+                la colaboración y la resolución de conflictos
+                durante el desarrollo de proyectos.
+            </p>
+        </section>
     </main>
 
     <footer>

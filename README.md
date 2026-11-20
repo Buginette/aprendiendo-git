@@ -11,3 +11,5 @@ Practica de Git Rebase para reorganizar el historial.
 ## Capacidad 4: colaboración con GitHub
 
 Repositorio publicado en GitHub.
+
+Licencia: uso educativo
